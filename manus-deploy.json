@@ -1,0 +1,24 @@
+{
+  "name": "escortvideoxx-roma",
+  "displayName": "Escort Roma - Ragazze Bellissime",
+  "description": "Sito escort a Roma con profili verificati e servizi esclusivi",
+  "version": "1.0.0",
+  "template": "web-static",
+  "buildCommand": "pnpm install && pnpm run build",
+  "outputDirectory": "dist",
+  "github": {
+    "owner": "stefanocabrito",
+    "repo": "escortvideoxx-roma",
+    "branch": "main"
+  },
+  "publish": {
+    "enabled": true,
+    "domain": "escortvideoxx-roma.manus.space",
+    "ssl": true,
+    "cache": true,
+    "cacheTTL": 3600
+  },
+  "environment": {
+    "NODE_ENV": "production"
+  }
+}
