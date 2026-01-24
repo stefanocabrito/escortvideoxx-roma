@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #C41E7E;
+  --color-secondary: #DC143C;
+  --color-dark: #333333;
+  --color-light: #F5F5F5;
+}
+
+@layer base {
+  body {
+    @apply bg-light text-dark;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-dark;
+  }
+
+  a {
+    @apply text-primary hover:text-secondary transition-colors;
+  }
+
+  button {
+    @apply transition-all duration-200;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-secondary transition-colors;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-secondary text-white rounded-lg font-semibold hover:bg-primary transition-colors;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-title {
+    @apply text-3xl sm:text-4xl font-bold text-center mb-12 text-dark;
+  }
+
+  .card-escort {
+    @apply bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow;
+  }
+
+  .badge-category {
+    @apply inline-block px-3 py-1 bg-primary text-white text-sm rounded-full;
+  }
+}
+
+/* Disclaimer styles */
+.disclaimer-overlay {
+  @apply fixed inset-0 bg-black/70 flex items-center justify-center z-50;
+}
+
+.disclaimer-modal {
+  @apply bg-white rounded-lg p-8 max-w-md w-full mx-4 shadow-2xl;
+}
+
+.disclaimer-buttons {
+  @apply flex gap-4 mt-6;
+}
+
+.disclaimer-buttons button {
+  @apply flex-1;
+}
