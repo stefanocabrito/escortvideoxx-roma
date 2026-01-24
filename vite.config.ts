@@ -5,6 +5,7 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   root: './client',
+  base: '/escortvideoxx-roma/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './client/src'),
