@@ -5,7 +5,7 @@ export default function Profiles() {
       name: 'Amica Pro',
       category: 'Escort Classica',
       phone: '3791825509',
-      image: '/images/amicaprogen3.jpg',
+      image: 'images/amicaprogen3.jpg',
       description: 'Elegante e raffinata, perfetta per cene e compagnia esclusiva'
     },
     {
@@ -13,7 +13,7 @@ export default function Profiles() {
       name: 'Caracol',
       category: 'Escort Classica',
       phone: '3317827756',
-      image: '/images/caracol1.jpg',
+      image: 'images/caracol1.jpg',
       description: 'Affascinante e disponibile, specialista in servizi premium'
     },
     {
@@ -21,7 +21,7 @@ export default function Profiles() {
       name: 'Colle',
       category: 'Mistress',
       phone: '3791825509',
-      image: '/images/colle-nov-1.jpg',
+      image: 'images/colle-nov-1.jpg',
       description: 'Dominatrice affascinante, perfetta per esperienze intense'
     },
     {
@@ -29,7 +29,7 @@ export default function Profiles() {
       name: 'Kiara',
       category: 'MILF',
       phone: '3317827756',
-      image: '/images/kiara1.jpg',
+      image: 'images/kiara1.jpg',
       description: 'Donna matura e sensuale, esperta in piacere e discrezione'
     },
     {
@@ -37,7 +37,7 @@ export default function Profiles() {
       name: 'Matura',
       category: 'Escort Classica',
       phone: '3791825509',
-      image: '/images/MATURA2.jpg',
+      image: 'images/MATURA2.jpg',
       description: 'Giovane e vivace, perfetta per compagnia e divertimento'
     },
     {
@@ -45,7 +45,7 @@ export default function Profiles() {
       name: 'Rosa Otto',
       category: 'Dominatrice',
       phone: '3317827756',
-      image: '/images/ROSAOTTO1.jpg',
+      image: 'images/ROSAOTTO1.jpg',
       description: 'Specialista in giochi di potere, discreta e professionale'
     }
   ]
