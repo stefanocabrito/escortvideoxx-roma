@@ -60,8 +60,6 @@ export default function Profiles() {
             <a
               key={profile.id}
               href="https://escortvideoxx.com"
-              target="_blank"
-              rel="noopener noreferrer"
               className="card-escort overflow-hidden group"
             >
               <div className="relative h-64 overflow-hidden bg-gray-200">
