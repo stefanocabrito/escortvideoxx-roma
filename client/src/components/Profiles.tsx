@@ -66,7 +66,7 @@ export default function Profiles() {
             >
               <div className="relative h-64 overflow-hidden bg-gray-200">
                 <img
-                  src={profile.image}
+                  src={`${import.meta.env.BASE_URL}${profile.image.replace(/^\//, '')}`}
                   alt={profile.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
