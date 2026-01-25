@@ -10,7 +10,7 @@ export default function Profiles() {
     },
     {
       id: 2,
-      name: 'Caracol',
+      name: 'Caraibica',
       category: 'Escort Classica',
       phone: '3317827756',
       image: '/escortvideoxx-roma/images/caracol1.jpg',
